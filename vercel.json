@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/proxy/archidekt/:path*", "destination": "https://archidekt.com/:path*" },
+    { "source": "/proxy/manabox/:path*", "destination": "https://manabox.app/:path*" },
+    { "source": "/proxy/moxfield/:path*", "destination": "https://api2.moxfield.com/:path*" }
+  ]
+}
