@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Palette from the reference image */
+@theme {
+  --color-grape: #6D3FA9;
+  --color-lilac: #A37AD9;
+  --color-forest: #2E7D5B;
+  --color-mint: #7ECF9A;
+  --color-cream: #F3F0EA;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body { background: var(--color-cream); color: #2a2433; font-family: var(--font-sans); }
